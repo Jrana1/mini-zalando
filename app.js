@@ -34,9 +34,9 @@ document.getElementById("pic2").addEventListener("click", e => {
     document.getElementById("discount").innerText = "20% sparen";
     document.getElementById("price").innerText = "20  ";
     document.getElementById("number").value = 1;
-    document.getElementById("subtotal").innerText = 0;
-    document.getElementById("tax").innerText = 0;
-    document.getElementById("total").innerText = 0;
+    document.getElementById("subtotal").innerText = "0$";
+    document.getElementById("tax").innerText = "0$";
+    document.getElementById("total").innerText = "0$";
     document.getElementById("lieferung-premium").removeAttribute("disabled", true);
     document.getElementById("lieferung-kostenlos").removeAttribute("disabled", true);
 });
