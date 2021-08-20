@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+nav ul li{
+    list-style: none;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#66676e;
+    align-items: center;
+}
+.first-nav{
+    background-color: #efeff0;
+    height: 25px;
+}
+.third-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.third-nav li{
+    list-style: none;
+}
+.third-nav a{
+    text-decoration: none;
+    color: black;
+}
+#big-image{
+    width:60%;
+   
+}
+.imge{
+    width:80px;
+    margin-left: 20px;
+    margin-top: 20px;
+ 
+}
+.btn-l{
+    background-color: coral;
+    padding:5px;
+    border-radius: 5px;
+}
+#number{
+    width: 80px;
+    border-radius: 5px;
+    padding-left: 30px;
+    
+}
+.number{
+    background-color: white;
+    width:80px;
+   
+}
