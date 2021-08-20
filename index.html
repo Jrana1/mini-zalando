@@ -75,16 +75,16 @@
                 <h2 id="brand-name">s.Oliver</h2>
                 <h3 id="product-name">T-Shirt</h3>
                 <small id="discount" class="text-danger">10% sparen</small>
-                <h4 id="price">16.19$ <span id="previous-price"><del>20$</del></span></h4>
+                <h4>$<span id="price">21 </span><span id="previous-price"><del>20</del></span>$</h4>
                 <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                         class="fas fa-star"></i><i class="far fa-star"></i></div>
                 <hr>
-                <div class="number"><i id="minus" class="fas fa-minus"></i> <input id="number" type="text" value="1">
+                <div class="number"><i id="minus" class="fas fa-minus"></i> <input id="number" type="text" value="0">
                     <i id="plus" class="fas fa-plus"></i>
                 </div>
                 <hr>
-                <button class="btn-l">Standard-Lieferugn-kostenlos</button> <button
-                    class="btn-l">Premium-Lieferung-20$</button>
+                <button id="lieferung-kostenlos" class="btn-l">Standard-Lieferugn-kostenlos</button> <button
+                    id="lieferung-premium" class="btn-l">Premium-Lieferung-20$</button>
                 <hr>
                 <label for="size">Bitte große auswählen:</label>
                 <select name="" id="size" required>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-dark " type="button">In den Warenkorb</button>
+                    <button id="submit" class="btn btn-dark " type="button">Zur Kasse</button>
                 </div>
             </div>
             <div class="row">
@@ -122,18 +122,23 @@
                     <div class="row">
                         <div class="col-3">Subtotal:</div>
                         <div class="col-3">
-                            <p>0$</p>
+                            <p id="subtotal" class="ms-5 text-center">0<span>$</span></p>
                         </div>
+
                     </div>
-                    <div class="row">
+                    <hr>
+                    <div class="row gx-3">
                         <div class="col-3">Tax:</div>
                         <div class="col-3">
-                            <p>0$</p>
+                            <p id="tax" class="ms-5 text-center">0<span>$</span></p>
                         </div>
                     </div>
+                    <hr>
                     <div class="row">
                         <div class="col-3">Total:</div>
-                        <div class="col-3">0$</div>
+                        <div class="col-3">
+                            <p id="total" class="ms-5 text-center">0<span>$</span></p>
+                        </div>
                     </div>
                 </div>
 
