@@ -26,6 +26,7 @@ document.getElementById("pic1").addEventListener("click", e => {
     document.getElementById("total").innerText = "0$";
     document.getElementById("lieferung-premium").removeAttribute("disabled", true);
     document.getElementById("lieferung-kostenlos").removeAttribute("disabled", true);
+    momentPrice = 0;
 });
 document.getElementById("pic2").addEventListener("click", e => {
     document.getElementById("big-image").src = "images/pic2.jpg"
@@ -39,6 +40,7 @@ document.getElementById("pic2").addEventListener("click", e => {
     document.getElementById("total").innerText = "0$";
     document.getElementById("lieferung-premium").removeAttribute("disabled", true);
     document.getElementById("lieferung-kostenlos").removeAttribute("disabled", true);
+    momentPrice = 0;
 });
 document.getElementById("pic3").addEventListener("click", e => {
     document.getElementById("big-image").src = "images/pic3.jpg";
@@ -52,6 +54,7 @@ document.getElementById("pic3").addEventListener("click", e => {
     document.getElementById("number").value = 1;
     document.getElementById("lieferung-premium").removeAttribute("disabled", true);
     document.getElementById("lieferung-kostenlos").removeAttribute("disabled", true);
+    momentPrice = 0;
 
 });
 let number = document.getElementById("number");
